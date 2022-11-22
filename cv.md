@@ -10,15 +10,15 @@ Among the strengths: competent formulation of thoughts, good diction, moderate p
 
 Work experience: six months in a popular Russian online school as a technical support specialist, at the moment - a customer support specialist in one of the largest IT companies in Russia.
 
-Skills:
+***Skills:***
 - There is only one programming language so far: JavaScript — I know it at an average level;
 - The framework is also the same: React — I know at an average level;
 - From version control systems: Git — I know only the necessary basics.
 
-Code Example:
+***Code Example:***
 - [Task with Codewars](https://www.codeweavers.com/kata/5264d2b162488dc400000001)
 
-Solving task:
+***Solving task:***
 ```js
 function spinWords(string){
   let strLast = ''
@@ -44,7 +44,7 @@ function spinWords(string){
 
 There is no commercial development experience.
 
-Education:
+***Education:***
 Only not related to the development: a specialist in cooking and confectionery. 
 
 English - A2
