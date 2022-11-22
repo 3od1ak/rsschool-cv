@@ -48,3 +48,5 @@ Education:
 Only not related to the development: a specialist in cooking and confectionery. 
 
 English - A2
+
+CV: https://3od1ak.github.io/rsschool-cv/cv
