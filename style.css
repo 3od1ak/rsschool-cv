@@ -1,3 +1,115 @@
-* {
-	margin: 0;
+@import url('fonts/roboto/stylesheet.css');
+
+:root {
+    --margin-top-section: 67px;
+    --margin-main-sections: 90px;
+    --width-box: 1099px;
+    --border: 1px solid #000;
+    --font-size-title: 35px;
+    --font-size-description: 28px;
+    --main-color: #3a10e5;
+}
+
+body {
+    font-family: 'Apercu Pro';
+    font-weight: normal;
+    font-style: normal;
+    background: #fff0e5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--margin-top-section);
+    width: var(--width-box);
+    height: 66px;
+    background: #ffffff;
+    border: var(--border);
+}
+
+nav ul {
+    display: flex;
+    font-size: 20px;
+    line-height: 25px;
+    gap: 70px;
+}
+
+nav ul li {
+    height: 100%;
+    font-weight: 400;
+}
+
+nav ul li:hover {
+    height: 100%;
+    cursor: pointer;
+    border-bottom: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.main-data {
+    display: flex;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+}
+
+main .main-info-about-me {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--margin-top-section);
+}
+
+.main-data-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.my-data {
+    margin-left: 20px;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 97.3056px;
+    line-height: 121px;
+}
+
+.specialization {
+    font-weight: 400;
+    font-size: 35.9324px;
+    line-height: 45px;
+    color: var(--main-color);
+}
+
+.links-in-main {
+    display: flex;
+    margin-left: 20px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.links-in-main section a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 42px;
+    margin-left: 12px;
+    margin-right: 26px;
+}
+
+.links-in-main section a h2 {
+    font-weight: 600;
 }
