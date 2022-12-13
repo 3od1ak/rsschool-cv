@@ -1,10 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" >
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" >
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-		<title>Document</title>
-	</head>
-	<body></body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="fonts/roboto/stylesheet.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <title>Alexandr Shorokhov • CV</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">about me</a></li>
+                    <li><a href="#strengths">strengths</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#code-example">code example</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="main-info-about-me">
+                <img src="avatar.jpg" alt="avatar" width="380" />
+                <div class="with-h1">
+                    <h1 class="my-name">Alexandr<br />Shorokhov</h1>
+                    <div class="main-data-div">
+                        <section class="my-data">
+                            <h2 class="specialization">Front-End developer</h2>
+                        </section>
+                        <div class="links-in-main">
+                            <section class="github-in-main display-flex">
+                                <img
+                                    src="icons/github-logo.png"
+                                    alt="github-logo"
+                                    width="53"
+                                />
+                                <a href="https://github.com/3od1ak">
+                                    <h2>GitHub</h2>
+                                </a>
+                            </section>
+                            <section class="telegram-in-main display-flex">
+                                <img
+                                    src="icons/telegram-logo.png"
+                                    alt="github-logo"
+                                    width="53"
+                                />
+                                <a href="https://t.me/zod1ac">
+                                    <h2>Telegram</h2>
+                                </a>
+                            </section>
+                            <section class="email-in-main display-flex">
+                                <img
+                                    src="icons/yandex-logo.png"
+                                    alt="github-logo"
+                                    width="53"
+                                />
+                                <a href="mailto:i@fmilone.ru">
+                                    <h2>Mail</h2>
+                                </a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="column">
+                <div class="column-first">
+                    <section class="section-column h-section-1">
+                        <h2 id="about-me" class="about-me">About me</h2>
+                        <hr />
+                        <p>
+                            I like to program, build some things, disassemble,
+                            learn the details of some things. Since childhood, I
+                            have had a craving for parsing some toys, things, I
+                            could sit for hours collecting cars from the
+                            constructor.
+                        </p>
+                    </section>
+                    <section class="section-column h-section-2">
+                        <h2 id="projects" class="projects">
+                            Projects <span>*</span>
+                        </h2>
+                        <hr />
+                        <div class="project">
+                            <p class="title-project">Blog on MERN</p>
+                            <div class="column-links">
+                                <div>
+                                    <a
+                                        href="https://github.com/3od1ak/blog-on-mern"
+                                    >
+                                        Back-End
+                                    </a>
+                                    <img
+                                        class="img-in-column-links width-0"
+                                        src="./icons/github-vector.svg"
+                                        alt="github logo"
+                                        width="26"
+                                        height="26"
+                                    />
+                                </div>
+                                <div>
+                                    <a
+                                        href="https://github.com/3od1ak/blog-on-mern-frontend"
+                                    >
+                                        Front-End
+                                    </a>
+                                    <img
+                                        class="img-in-column-links width-0"
+                                        src="./icons/github-vector.svg"
+                                        alt="github logo"
+                                        width="26"
+                                        height="26"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project project-flex">
+                            <div>
+                                <p class="title-project">NFT Search App</p>
+                                <div class="column-links">
+                                    <div>
+                                        <a
+                                            href="https://github.com/3od1ak/NFT-search-app"
+                                        >
+                                            Link to app
+                                        </a>
+                                        <img
+                                            class="img-in-column-links width-0"
+                                            src="./icons/github-vector.svg"
+                                            alt="github logo"
+                                            width="26"
+                                            height="26"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="title-project">React Sneakers</p>
+                                <div class="column-links">
+                                    <div>
+                                        <a
+                                            href="https://github.com/3od1ak/react-sneakers"
+                                        >
+                                            Link to app
+                                        </a>
+                                        <img
+                                            class="img-in-column-links width-0"
+                                            src="./icons/github-vector.svg"
+                                            alt="github logo"
+                                            width="26"
+                                            height="26"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="not-my-projects">
+                            <span>*</span> So far I have only educational
+                            projects that were not created by me from scratch.
+                            At the same time, during their execution, I tried to
+                            figure out what each detail of the code is
+                            responsible for, spending a sufficient amount of
+                            time on it.
+                        </p>
+                    </section>
+                    <section class="section-column h-section-3">
+                        <h2 id="code-example" class="code-example">
+                            Code Example
+                        </h2>
+                        <hr />
+                        <div class="column-code">
+                            <div>
+                                <pre>
+                                    <span>function spinWords(string){</span>
+                                    <span class='code-margin-left-15'>let strLast = ''</span>
+                                    <span class='code-margin-left-15'>if ((/\s/).test(string) === false) {</span>
+                                        <span class='code-margin-left-30'>if (string.length > 5) {</span>
+                                            <span class='code-margin-left-45'>return string.split('').reverse().join('')</span>
+                                        <span class='code-margin-left-30'>} else {</span>
+                                            <span class='code-margin-left-45'>return string</span>
+                                        <span class='code-margin-left-30'>}</span>
+                                    <span>} else {</span>
+                                        <span class='code-margin-left-30'>string = string.split(' ')</span>
+                                        <span class='code-margin-left-30'>for (let i in string) {</span>
+                                        <span class='code-margin-left-30'>if (string[i].length &lt; 5) {</span>
+                                            <span class='code-margin-left-45'>strLast += string[i] + ' '</span>
+                                        <span class='code-margin-left-30'>} else {</span>
+                                            <span class='code-margin-left-45'>strLast += string[i].split('').reverse().join('') + ' '</span>
+                                        <span class='code-margin-left-30'>}</span>
+                                        <span class='code-margin-left-30'>}</span>
+                                        <span class='code-margin-left-30'>return strLast.trim()</span>
+                                        <span class='code-margin-left-30'>}</span>
+                                    <span>}</span>
+                                </pre>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="column-second">
+                    <section class="section-column h-section-4">
+                        <h2 id="strengths" class="strengths">Strengths</h2>
+                        <hr />
+                        <p>
+                            Developed speech, diction • Sociable • Hardworking •
+                            Easy learning • Purposefulness
+                        </p>
+                    </section>
+                    <section class="section-column h-section-5">
+                        <h2 id="skills" class="skills">Skills</h2>
+                        <hr />
+                        <p>
+                            Figma, Git, HTML5, CSS3 / SCSS, JavaScript ES6,
+                            React, React Native, NodeJS, TypeScript, English A2
+                        </p>
+                    </section>
+                    <section class="section-column h-section-6">
+                        <h2 id="education" class="education">Education</h2>
+                        <hr />
+                        <section class="place-of-study">
+                            <h2>FreeCodeCamp</h2>
+                            <p>
+                                I finished the HTML and CSS modules, JavaScript
+                                - at the stage of studying prototypes.
+                            </p>
+                        </section>
+                        <section class="place-of-study">
+                            <h2>YouTube</h2>
+                            <p>
+                                I also studied on a sufficient number of videos
+                                on YouTube. There I also learned the basics of
+                                TypeScript, React, React Native, NodeJS.
+                            </p>
+                        </section>
+                        <section class="place-of-study">
+                            <h2>RS School</h2>
+                            <p>Currently</p>
+                        </section>
+                    </section>
+                    <section class="section-column h-section-7">
+                        <h2 id="contact" class="contact">Contact</h2>
+                        <hr />
+                        <div class="column-links-in-contact">
+                            <a href="https://t.me/zod1ac"> Telegram </a>
+                            <a
+                                href="https://discord.com/users/226383527132921856/"
+                            >
+                                Discord
+                            </a>
+                            <a href="mailto:i@fmilone.ru"> Email </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="https://rs.school/js/">
+                <img src="icons/rsschool.svg" alt="" width="200" />
+            </a>
+            <p>Made with ❤️ 2022</p>
+            <div>
+                <a href="https://github.com/3od1ak">
+                    <img
+                        class="img-in-column-links width-0"
+                        src="./icons/github-vector.svg"
+                        alt="github logo"
+                        width="48"
+                        height="48"
+                    />
+                    GitHub
+                </a>
+            </div>
+        </footer>
+    </body>
 </html>
