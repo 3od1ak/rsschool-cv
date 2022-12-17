@@ -259,6 +259,7 @@
         display: flex;
         width: var(--content-width);
         height: 405px;
+        margin: 0 auto;
         justify-content: space-between;
     }
 
@@ -429,6 +430,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: var(--content-width);
+        margin: 0 auto;
     }
 
     .footer-data {
