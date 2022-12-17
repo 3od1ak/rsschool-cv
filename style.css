@@ -9,12 +9,29 @@
     --content-width: 1222px;
 }
 
+/* SCROLL */
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+/* ------ */
+
 @media (min-width: 1440px) {
     body {
         font-family: Inter, sans-serif;
         margin: 0 auto;
         overflow-y: hidden;
         overflow-x: hidden;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: var(--color-orange);
+        cursor: pointer;
     }
 
     header {
@@ -41,11 +58,6 @@
     .header-ul {
         display: flex;
         gap: 46px;
-    }
-
-    .header-ul__li:hover {
-        color: var(--color-orange);
-        cursor: pointer;
     }
 
     .welcome {
