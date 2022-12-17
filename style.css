@@ -38,6 +38,7 @@ html {
         display: flex;
         background: var(--main-color);
         padding: 42px 110px;
+        height: 134px;
     }
 
     .header-navbar {
@@ -60,6 +61,16 @@ html {
         gap: 46px;
     }
 
+    .header-ul__li,
+    .header-span,
+    .about-section__h2,
+    .service-content__h2,
+    .service-btn__span,
+    .prices-btn__span,
+    .contacts-h2 {
+        font-family: Inika, sans-serif;
+    }
+
     .welcome {
         display: flex;
         background: var(--main-color);
@@ -67,6 +78,7 @@ html {
         padding: 62px 110px;
         margin: 0 auto;
         min-width: 1222px;
+        height: 532px;
     }
 
     .welcome-div {
@@ -105,7 +117,7 @@ html {
         font-weight: 400;
         font-size: 20px;
         line-height: 35px;
-        color: var(--color-dark-gray);
+        color: var(--color-gray-63);
     }
 
     .welcome-section__button {
@@ -129,6 +141,7 @@ html {
         padding: 93px 109px;
         margin: 0 auto;
         min-width: 1222px;
+        height: 666px;
     }
 
     .about-div {
@@ -165,12 +178,13 @@ html {
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
-        color: var(--color-dark-gray);
+        color: var(--color-gray-63);
     }
 
     .service {
         background: var(--main-color);
         padding: 40px 109px 121px;
+        height: 1300px;
     }
 
     .service-wrapper {
@@ -188,7 +202,7 @@ html {
 
     .service-content__h2 {
         width: 306px;
-        height: 94p;
+        height: 94px;
         font-weight: 400;
         font-size: 40px;
         line-height: 52px;
@@ -197,7 +211,7 @@ html {
 
     .service-btns {
         display: flex;
-        gap: 30px;
+        gap: 38px;
     }
 
     .service-btn {
@@ -220,7 +234,7 @@ html {
         margin-top: 90px !important;
         display: flex;
         flex-wrap: wrap;
-        gap: 116px;
+        gap: 55px 116px;
         width: 1222px;
     }
 
@@ -260,7 +274,7 @@ html {
         font-size: 16px;
         line-height: 20px;
         text-align: center;
-        color: var(--color-dark-gray);
+        color: var(--color-gray-71);
     }
 
     .prices {
@@ -436,6 +450,9 @@ html {
 
     .footer {
         padding: 40px 109px;
+        height: 130px;
+        display: flex;
+        align-items: center;
     }
 
     .footer-content {
@@ -452,9 +469,16 @@ html {
         width: 182px;
     }
 
+    .footer-copyright,
+    .footer-rsschool,
+    .footer-2022 {
+        font-size: 20px;
+    }
+
     .footer-link {
         color: black;
         text-decoration: none;
+        font-size: 20px;
     }
 
     .footer-social {
