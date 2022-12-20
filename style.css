@@ -6,6 +6,7 @@
     --color-gray-71: #717171;
     --color-gray-ae: #aea1a1;
     --color-gray-d9: #d9d9d9;
+    --body-width: 1440px;
     --content-width: 1222px;
 }
 
@@ -35,6 +36,7 @@ html {
     }
 
     header {
+        width: var(--body-width);
         display: flex;
         background: var(--main-color);
         padding: 42px 110px;
@@ -72,12 +74,11 @@ html {
     }
 
     .welcome {
+        width: var(--body-width);
         display: flex;
         background: var(--main-color);
         justify-content: center;
-        padding: 62px 110px;
         margin: 0 auto;
-        min-width: 1222px;
         height: 532px;
     }
 
@@ -96,7 +97,7 @@ html {
     .welcome-section {
         display: flex;
         width: 549px;
-        height: 340px;
+        height: 347px;
         flex-direction: column;
         justify-content: space-between;
     }
@@ -135,11 +136,9 @@ html {
     }
 
     .about {
-        width: 1482px;
+        width: var(--body-width);
         display: flex;
-        justify-content: center;
         padding: 93px 109px;
-        margin: 0 auto;
         min-width: 1222px;
         height: 666px;
     }
@@ -394,10 +393,8 @@ html {
 
     .contacts {
         display: flex;
-        justify-content: center;
         height: 550px;
-        align-items: end;
-        padding: 53px 109px 0;
+        padding: 53px 100px 0;
         background: var(--main-color);
     }
 
@@ -405,7 +402,10 @@ html {
         display: flex;
         justify-content: space-between;
         width: var(--content-width);
-        height: 496.99px;
+    }
+
+    .contacts-woman {
+        margin-right: 113px;
     }
 
     .contacts-container {
@@ -432,6 +432,8 @@ html {
         font-weight: 700;
         font-size: 40px;
         color: var(--color-green);
+        margin-right: 64px;
+        width: 197px;
     }
 
     .contacts-accordion__btn {
@@ -453,6 +455,7 @@ html {
         height: 130px;
         display: flex;
         align-items: center;
+        width: var(--body-width);
     }
 
     .footer-content {
@@ -460,13 +463,12 @@ html {
         justify-content: space-between;
         align-items: center;
         width: var(--content-width);
-        margin: 0 auto;
     }
 
     .footer-data {
         display: flex;
         justify-content: space-between;
-        width: 182px;
+        width: 169px;
     }
 
     .footer-copyright,
