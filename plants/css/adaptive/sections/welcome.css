@@ -1,0 +1,62 @@
+@media (min-width: 1440px) {
+    .welcome {
+        display: flex;
+        background: var(--main-color);
+        justify-content: center;
+        margin: 0 auto;
+        height: 532px;
+    }
+
+    .welcome-div {
+        display: flex;
+        width: var(--content-width);
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .welcome-img {
+        width: 448.8px;
+        height: 407.36px;
+    }
+
+    .welcome-section {
+        display: flex;
+        width: 549px;
+        height: 347px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .welcome-section__h1 {
+        font-weight: 700;
+        font-size: 45px;
+        color: var(--color-dark-gray);
+    }
+
+    .welcome-section__span-green {
+        font-weight: 700;
+        font-size: 45px;
+        color: var(--color-green);
+    }
+
+    .welcome-section__p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: var(--color-gray-63);
+    }
+
+    .welcome-section__button {
+        width: 158px;
+        height: 44px;
+        background: transparent;
+        border: 2px solid #e06733;
+        border-radius: 10px;
+    }
+
+    .welcome-section__button-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

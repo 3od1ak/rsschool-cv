@@ -1,0 +1,27 @@
+@media (min-width: 1440px) {
+    header {
+        display: flex;
+        background: var(--main-color);
+        height: 134px;
+    }
+
+    .header-navbar {
+        display: flex;
+        width: var(--content-width);
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .header-logo {
+        display: flex;
+        height: 21.04px;
+        align-items: baseline;
+        gap: 1px;
+    }
+
+    .header-ul {
+        display: flex;
+        gap: 46px;
+    }
+}

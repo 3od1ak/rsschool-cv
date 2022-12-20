@@ -1,0 +1,81 @@
+@import url('./active-items-prices.css');
+
+@media (min-width: 1440px) {
+    .prices-accourdion div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .prices-accourdion {
+        padding: 16px 40px 12px;
+        background: var(--color-green-d6);
+        border-radius: 20px;
+        position: absolute;
+    }
+
+    .prices-accourdion__h2 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .prices-accourdion__hr {
+        margin: 12px 0 6px;
+    }
+
+    .prices-accourdion__p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 10px;
+        color: var(--color-gray-71);
+        margin-bottom: 8px;
+    }
+
+    .prices-accourdion__price {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+
+    .prices-accourdion__span {
+        color: var(--color-orange);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .prices-accourdion__order {
+        width: 86px;
+        height: 25px;
+        background: #ffffff;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .prices-accourdion__order span {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--color-gray-71);
+    }
+
+    .prices-arrow__white {
+        rotate: 180deg;
+    }
+
+    .prices-active__button {
+        display: flex;
+        align-items: center;
+        width: 16px;
+        height: 16px;
+        background: var(--color-gray-ae);
+        border: none;
+        border-radius: 100%;
+    }
+
+    .prices-arrow__white {
+        scale: 2;
+    }
+}
