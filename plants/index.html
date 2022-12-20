@@ -4,8 +4,8 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="reset.css" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <!-- FONTS -->
@@ -19,9 +19,10 @@
             href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap"
             rel="stylesheet"
         />
-        <!-- ----- -->
-        <title>Plants</title>
+        <!-- -->
         <link rel="icon" type="image/x-icon" href="./images/logo_vector.png" />
+        <title>Plants</title>
+        <script src="index.js"></script>
     </head>
     <body>
         <header class="header">
@@ -202,10 +203,46 @@
                                     <span class="prices-li__span">Basics</span>
                                     <button class="prices-li__button">
                                         <img
-                                            src="./images/arrow.svg"
+                                            class="prices-arrow"
+                                            src="./images/arrows/arrow.svg"
                                             alt="arrow"
                                         />
                                     </button>
+                                    <section class="prices-accourdion basics">
+                                        <div>
+                                            <h2 class="prices-accourdion__h2">
+                                                Basics
+                                            </h2>
+                                            <button
+                                                class="prices-active__button"
+                                            >
+                                                <img
+                                                    class="prices-arrow__white"
+                                                    src="./images/arrows/arrow-white.svg"
+                                                    alt="arrow"
+                                                />
+                                            </button>
+                                        </div>
+                                        <hr class="prices-accourdion__hr" />
+                                        <p class="prices-accourdion__p">
+                                            Release of Letraset sheets
+                                            containing Lorem Ipsum passages, and
+                                            more recently
+                                        </p>
+                                        <p class="prices-accourdion__price">
+                                            <span
+                                                class="prices-accourdion__span"
+                                            >
+                                                $25
+                                            </span>
+                                            / per hour
+                                        </p>
+                                        <button
+                                            class="prices-accourdion__order"
+                                        >
+                                            <span> Order </span>
+                                        </button>
+                                    </section>
                                 </li>
                                 <li class="prices-li">
                                     <span class="prices-li__span"
@@ -215,11 +252,47 @@
                                     <button class="prices-li__button">
                                         <img
                                             class="test"
-                                            src="./images/arrow.svg"
+                                            src="./images//arrows/arrow.svg"
                                             alt="arrow"
                                         />
                                     </button>
+                                    <section class="prices-accourdion standard">
+                                        <div>
+                                            <h2 class="prices-accourdion__h2">
+                                                Standard
+                                            </h2>
+                                            <button
+                                                class="prices-active__button"
+                                            >
+                                                <img
+                                                    class="prices-arrow__white"
+                                                    src="./images/arrows/arrow-white.svg"
+                                                    alt="arrow"
+                                                />
+                                            </button>
+                                        </div>
+                                        <hr class="prices-accourdion__hr" />
+                                        <p class="prices-accourdion__p">
+                                            Release of Letraset sheets
+                                            containing Lorem Ipsum passages, and
+                                            more recently
+                                        </p>
+                                        <p class="prices-accourdion__price">
+                                            <span
+                                                class="prices-accourdion__span"
+                                            >
+                                                $25
+                                            </span>
+                                            / per hour
+                                        </p>
+                                        <button
+                                            class="prices-accourdion__order"
+                                        >
+                                            <span> Order </span>
+                                        </button>
+                                    </section>
                                 </li>
+
                                 <li class="prices-li">
                                     <span class="prices-li__span"
                                         >Pro care</span
@@ -227,10 +300,45 @@
 
                                     <button class="prices-li__button">
                                         <img
-                                            src="./images/arrow.svg"
+                                            src="./images/arrows/arrow.svg"
                                             alt="arrow"
                                         />
                                     </button>
+                                    <section class="prices-accourdion pro-care">
+                                        <div>
+                                            <h2 class="prices-accourdion__h2">
+                                                Pro care
+                                            </h2>
+                                            <button
+                                                class="prices-active__button"
+                                            >
+                                                <img
+                                                    class="prices-arrow__white"
+                                                    src="./images/arrows/arrow-white.svg"
+                                                    alt="arrow"
+                                                />
+                                            </button>
+                                        </div>
+                                        <hr class="prices-accourdion__hr" />
+                                        <p class="prices-accourdion__p">
+                                            Release of Letraset sheets
+                                            containing Lorem Ipsum passages, and
+                                            more recently
+                                        </p>
+                                        <p class="prices-accourdion__price">
+                                            <span
+                                                class="prices-accourdion__span"
+                                            >
+                                                $25
+                                            </span>
+                                            / per hour
+                                        </p>
+                                        <button
+                                            class="prices-accourdion__order"
+                                        >
+                                            <span> Order </span>
+                                        </button>
+                                    </section>
                                 </li>
                             </ul>
                         </div>
@@ -267,7 +375,7 @@
                         <button class="contacts-accordion__btn">
                             <img
                                 class="contacts-arrow"
-                                src="./images/arrow-white.svg"
+                                src="./images/arrows/arrow-white.svg"
                                 alt="arrow"
                             />
                         </button>
