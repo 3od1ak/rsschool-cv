@@ -1,0 +1,22 @@
+/* Layout with a screen resolution of 1440px */
+@import url('./adaptive/min-width-1440.css');
+
+:root {
+    --main-color: #edf2ec;
+    --color-orange: #e06733;
+    --color-green: #499a18;
+    --color-green-d6: #d6e7d2;
+    --color-gray-63: #636060;
+    --color-gray-71: #717171;
+    --color-gray-ae: #aea1a1;
+    --color-gray-d9: #d9d9d9;
+    --body-width: 1440px;
+    --content-width: 1222px;
+}
+
+/* SCROLL */
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+/* ------ */

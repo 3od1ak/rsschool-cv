@@ -1,0 +1,42 @@
+/* Layout of the drop-down list in Prices */
+@import url('./sections/header.css');
+@import url('./sections/welcome.css');
+@import url('./sections/about.css');
+@import url('./sections/service.css');
+@import url('./sections/prices/index.css');
+@import url('./sections/contacts.css');
+@import url('./sections/footer.css');
+
+@media (min-width: 1440px) {
+    body {
+        font-family: Inter, sans-serif;
+        margin: 0 auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    /* Change Inika font */
+    .header-ul__li,
+    .header-span,
+    .about-section__h2,
+    .service-content__h2,
+    .service-btn__span,
+    .prices-btn__span,
+    .contacts-h2,
+    .service-btn,
+    .prices-callus__btn {
+        font-family: Inika, sans-serif;
+    }
+    /* ----------------- */
+
+    a {
+        text-decoration: none;
+        color: black;
+        transition: 0.5s;
+    }
+
+    a:hover {
+        color: var(--color-orange);
+        cursor: pointer;
+    }
+}

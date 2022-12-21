@@ -1,0 +1,123 @@
+@import url('../sections/prices/active-items-prices.css');
+@import url('./active-prices/index.css');
+
+@media (min-width: 1440px) {
+    .prices {
+        padding: 40px 109px 115px;
+    }
+
+    .prices-wrapper {
+        display: flex;
+        width: var(--content-width);
+        height: 405px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .prices-prices {
+        width: 332px;
+        height: 391.01px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .prices-prices__h2 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .prices-items {
+        border: 1px solid #e3e1d5;
+        border-radius: 20px;
+        padding: 34px 41px;
+        width: 332px;
+        height: 282.01px;
+    }
+
+    .prices-items ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 250px;
+        height: 214.01px;
+    }
+
+    .prices-li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 40px;
+        width: 250px;
+        height: 50px;
+        background: #edf2ec;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .prices-li__span {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .prices-li__button {
+        display: flex;
+        align-items: center;
+        width: 16px;
+        height: 16px;
+        background: var(--color-gray-d9);
+        border: none;
+        border-radius: 100%;
+    }
+
+    .prices-li__button img {
+        scale: 2;
+    }
+
+    .prices-callus {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 452px;
+        margin-left: auto;
+    }
+
+    .prices-callus__h2 {
+        text-align: right;
+        width: 452px;
+        height: 103px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .prices-callus__span-green {
+        color: var(--color-green);
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .prices-callus__btn {
+        width: 162px;
+        height: 50px;
+        border: 1px solid #e06733;
+        border-radius: 5px;
+        background: transparent;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--color-orange);
+        transition: 0.5s;
+    }
+
+    .prices-callus__btn:active {
+        background: var(--color-orange);
+        color: white;
+    }
+
+    .prices-callus img {
+        width: 152px;
+        height: 174.99px;
+    }
+}

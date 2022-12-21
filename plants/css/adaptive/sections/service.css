@@ -1,0 +1,100 @@
+@media (min-width: 1440px) {
+    .service {
+        background: var(--main-color);
+        padding: 40px 109px 121px;
+        height: 1300px;
+    }
+
+    .service-wrapper {
+        width: var(--content-width);
+        margin: 0 auto;
+    }
+
+    .service-content {
+        display: flex;
+        width: 1007px;
+        height: 94px;
+        align-items: center;
+        gap: 142px;
+    }
+
+    .service-content__h2 {
+        width: 306px;
+        height: 94px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+        color: var(--color-green);
+    }
+
+    .service-items {
+        margin: 0 auto;
+        margin-top: 90px !important;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 55px 116px;
+        width: 1222px;
+    }
+
+    .service-item {
+        display: flex;
+        flex-direction: column;
+        width: 330px;
+        height: 450px;
+    }
+
+    .service-item img {
+        object-fit: cover;
+        width: 329px;
+        height: 350px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .service-item__border {
+        width: 330px;
+        height: 100px;
+        border: 1px solid #e3e1d5;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .service-item__border h3 {
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: var(--color-orange);
+    }
+
+    .service-item__border p {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: var(--color-gray-71);
+    }
+
+    .service-btns {
+        display: flex;
+        gap: 38px;
+    }
+
+    .service-btn {
+        width: 161px;
+        height: 50px;
+        background: transparent;
+        border: 1px solid #e06733;
+        border-radius: 5px;
+        transition: 0.5s;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--color-orange);
+    }
+
+    .service-btn:active {
+        background: var(--color-orange);
+        color: white;
+    }
+}
