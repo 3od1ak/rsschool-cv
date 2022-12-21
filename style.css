@@ -1,0 +1,344 @@
+@import url('fonts/roboto/stylesheet.css');
+
+:root {
+    --margin-top-section: 67px;
+    --margin-main-sections: 90px;
+    --width-box: 1099px;
+    --border: 1px solid #000;
+    --font-size-title: 35px;
+    --font-size-description: 28px;
+    --main-color: #3a10e5;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Apercu Pro';
+    width: var(--width-box);
+    font-weight: normal;
+    font-style: normal;
+    background: #fff0e5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--margin-top-section);
+    width: var(--width-box);
+    height: 66px;
+    background: #ffffff;
+    border: var(--border);
+}
+
+nav ul {
+    height: 25px;
+    display: flex;
+    font-size: 20px;
+    line-height: 25px;
+    gap: 70px;
+}
+
+nav ul li {
+    height: 100%;
+    font-weight: 400;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover {
+    height: 100%;
+    cursor: pointer;
+    border-bottom: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.main-data {
+    display: flex;
+}
+
+.main-info-about-me {
+    display: flex;
+    margin-top: var(--margin-top-section);
+}
+
+.with-h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 97.3056px;
+    line-height: 121px;
+}
+
+.specialization {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 35.9324px;
+    color: var(--main-color);
+}
+
+.links-in-main {
+    display: flex;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.links-in-main section a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 42px;
+    margin-left: 12px;
+    margin-right: 26px;
+}
+
+.links-in-main section a h2 {
+    font-weight: 600;
+}
+
+/* 1 column */
+.column {
+    margin-top: var(--margin-main-sections);
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-first {
+    flex-direction: column;
+}
+
+.section-column {
+    margin-bottom: 67px;
+    border: var(--border);
+    background: white;
+    width: 530px;
+}
+
+.section-column h2 {
+    padding: 30px 0 0 40px;
+    width: 480px;
+    display: flex;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-column p {
+    padding: 0px 0px 0 40px;
+    width: 450px;
+    left: 198.84px;
+    top: 822.82px;
+
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.column-links {
+    margin-top: 10px;
+    display: flex;
+    font-weight: 400;
+    margin-left: 40px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+    align-items: end;
+    gap: 42px;
+}
+
+.column-links a {
+    margin: 0;
+    font-size: 23px;
+    text-decoration: none;
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+.column-links div {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.projects span {
+    color: red;
+}
+
+p.title-project {
+    width: 243px;
+}
+
+.project-flex {
+    display: flex;
+}
+
+p.not-my-projects {
+    font-size: 16px;
+    width: 447px;
+    margin-top: -4px;
+    line-height: 20px;
+}
+
+.not-my-projects span {
+    color: red;
+}
+
+.column-code {
+    display: flex;
+    font-weight: 400;
+    margin-left: 40px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 5px;
+    align-items: end;
+    gap: 42px;
+}
+
+.column-code div pre {
+    font-size: 13px;
+    width: 474px;
+}
+
+/* MARGIN CODE */
+
+.code-margin-left-15 {
+    margin-left: 15px;
+}
+
+.code-margin-left-30 {
+    margin-left: 30px;
+}
+
+.code-margin-left-45 {
+    margin-left: 45px;
+}
+
+/* ----------- */
+
+/* COLUMN 2 */
+
+.place-of-study h2 {
+    font-weight: 400;
+    padding: 0;
+    padding-left: 40px;
+    font-size: 28px;
+}
+
+.place-of-study p {
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+    color: var(--main-color);
+    width: 490px;
+}
+
+.column-links-in-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 40px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 5px;
+    gap: 40px;
+}
+
+.column-links-in-contact a {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+/* -------- */
+
+/* --- WIDTH SECTIONS --- */
+
+/* column 1 */
+
+.h-section-1 {
+    height: 390px;
+}
+
+.h-section-2 {
+    height: 441px;
+}
+
+.h-section-3 {
+    height: 650px;
+}
+
+/* column 2 */
+
+.h-section-4 {
+    height: 252px;
+}
+
+.h-section-5 {
+    height: 292px;
+}
+
+.h-section-6 {
+    height: 530px;
+}
+
+.h-section-7 {
+    height: 340px;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 0 0 74px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 17px;
+}
+
+footer div img {
+    filter: grayscale(1);
+}
+
+footer div a {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+/* ---------------------- */
+
+hr {
+    margin: 20px auto;
+    width: 85%;
+}
