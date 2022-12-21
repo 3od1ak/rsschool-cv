@@ -50,6 +50,7 @@
         align-items: center;
         width: 16px;
         height: 16px;
+        margin-right: 15px;
         background: var(--color-gray-ae);
         border: none;
         border-radius: 100%;

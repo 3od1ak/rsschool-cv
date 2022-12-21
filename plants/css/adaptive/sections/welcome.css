@@ -7,19 +7,19 @@
         height: 532px;
     }
 
-    .welcome-div {
+    .welcome__div {
         display: flex;
         width: var(--content-width);
         align-items: center;
         justify-content: space-between;
     }
 
-    .welcome-img {
+    .welcome__img {
         width: 448.8px;
         height: 407.36px;
     }
 
-    .welcome-section {
+    .about-welcome {
         display: flex;
         width: 549px;
         height: 347px;
@@ -27,26 +27,26 @@
         justify-content: space-between;
     }
 
-    .welcome-section__h1 {
+    .about-welcome__h1 {
         font-weight: 700;
         font-size: 45px;
-        color: var(--color-dark-gray);
+        color: var(--color-gray-71);
     }
 
-    .welcome-section__span-green {
+    .about-welcome__span {
         font-weight: 700;
         font-size: 45px;
         color: var(--color-green);
     }
 
-    .welcome-section__p {
+    .about-welcome__p {
         font-weight: 400;
         font-size: 20px;
         line-height: 35px;
         color: var(--color-gray-63);
     }
 
-    .welcome-section__button {
+    .about-button {
         width: 158px;
         height: 44px;
         background: transparent;
@@ -54,7 +54,7 @@
         border-radius: 10px;
     }
 
-    .welcome-section__button-text {
+    .about-button__span {
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;

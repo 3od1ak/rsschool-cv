@@ -6,7 +6,7 @@
         height: 666px;
     }
 
-    .about-div {
+    .about__div {
         display: flex;
         width: var(--content-width);
         align-items: center;
@@ -22,6 +22,10 @@
         justify-content: space-between;
     }
 
+    .about-section__span {
+        color: var(--color-orange);
+    }
+
     .about-section__h2 {
         width: 463px;
         height: 102px;
@@ -29,10 +33,6 @@
         font-size: 40px;
         line-height: 52px;
         color: var(--color-green);
-    }
-
-    .about-section__span-orange {
-        color: var(--color-orange);
     }
 
     .about-section__p {
