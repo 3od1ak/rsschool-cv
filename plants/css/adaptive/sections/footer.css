@@ -34,8 +34,12 @@
     }
 
     .footer-social {
-        display: flex;
         justify-content: space-between;
         width: 188px;
+    }
+
+    .links-social {
+        display: flex;
+        justify-content: space-between;
     }
 }

@@ -46,17 +46,20 @@
         color: var(--color-gray-63);
     }
 
-    .about-button {
+    .about-welcome__btn {
         width: 158px;
         height: 44px;
         background: transparent;
         border: 2px solid #e06733;
         border-radius: 10px;
-    }
-
-    .about-button__span {
+        transition: 0.5s;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
+        font-family: Inter;
+    }
+    .about-welcome__btn:active {
+        background: var(--color-orange);
+        color: white;
     }
 }

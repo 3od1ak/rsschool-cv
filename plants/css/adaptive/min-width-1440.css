@@ -22,7 +22,9 @@
     .service-content__h2,
     .service-btn__span,
     .prices-btn__span,
-    .contacts-h2 {
+    .contacts-h2,
+    .service-btn,
+    .prices-callus__btn {
         font-family: Inika, sans-serif;
     }
     /* ----------------- */

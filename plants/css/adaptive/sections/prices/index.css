@@ -104,17 +104,20 @@
         border: 1px solid #e06733;
         border-radius: 5px;
         background: transparent;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--color-orange);
+        transition: 0.5s;
+    }
+
+    .prices-callus__btn:active {
+        background: var(--color-orange);
+        color: white;
     }
 
     .prices-callus img {
         width: 152px;
         height: 174.99px;
-    }
-
-    .prices-btn__span {
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 26px;
-        color: var(--color-orange);
     }
 }
